@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+    <h1>🎯 Number Guessing Game</h1>
+    <p>Guess the number!</p>
+
+    <select id="difficulty" onchange="setDifficulty()">
+        <option value="easy">Easy (1–50)</option>
+        <option value="medium">Medium (1–100)</option>
+        <option value="hard">Hard (1–500)</option>
+    </select>
+
+    <input type="number" id="guessInput" placeholder="Enter your guess">
+    <button onclick="checkGuess()">Guess</button>
+
+    <p id="message"></p>
+    <p id="attempts"></p>
+
+    <button class="restart" onclick="restartGame()">Restart</button>
+</div>
+
+<!-- Soft & Pleasant Sound Effects -->
+<audio id="winSound" src="https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3"></audio>
+<audio id="wrongSound" src="https://assets.mixkit.co/sfx/preview/mixkit-soft-click-1123.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
