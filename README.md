@@ -12,10 +12,7 @@ https://24a31a05bi.github.io/number-guessing-game/
 ---
 
 ## 📸 Screenshot
-
-<p align="center">
-  <img src="screenshot.jpeg" width="350" alt="Number Guessing Game Screenshot">
-</p>
+https://github.com/24a31a05bi/number-guessing-game/blob/main/screenshot.jpeg
 
 ---
 
@@ -58,7 +55,11 @@ number-guessing-game/
 1. Clone the repository:
    ```bash
    git clone https://github.com/24a31a05bi/number-guessing-game.git
+2. Open the project folder.
+3. Open index.html in your browser.
+4. Start playing the game 🎮  
 
 ----
 🙌 Acknowledgement
+
 This project was created as part of my learning journey in web development, focusing on improving JavaScript logic and UI design.
